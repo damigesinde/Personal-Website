@@ -1,0 +1,26 @@
+
+.loading-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    font-size: 2rem;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.loading-screen video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+
+.visible {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}

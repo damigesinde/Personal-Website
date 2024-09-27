@@ -1,0 +1,81 @@
+/* styles.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif; /* Set a default font */
+    line-height: 1.6; /* Improve readability */
+    color: #333; /* Text color */
+    background-color: #f4f4f4; /* Background color */
+}
+
+/* Header Styling */
+header {
+    background: #333; /* Dark background for header */
+    color: #fff; /* White text color */
+    padding: 1rem 0; /* Padding around header content */
+    text-align: center; /* Center-align header text */
+}
+
+header h1 {
+    margin-bottom: 0.5rem; /* Space below the heading */
+}
+
+nav ul {
+    list-style: none; /* Remove default list styling */
+}
+
+nav ul li {
+    display: inline; /* Display list items in a row */
+    margin: 0 1rem; /* Space between list items */
+}
+
+nav a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Main Content Styling */
+main {
+    padding: 2rem; /* Add padding around main content */
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 2rem; /* Space between sections */
+}
+
+h2 {
+    color: #333; /* Heading color */
+}
+
+/* Footer Styling */
+footer {
+    background: #333; /* Dark background for footer */
+    color: #fff; /* White text color */
+    text-align: center; /* Center-align text in footer */
+    padding: 1rem 0; /* Padding around footer content */
+}
+
+/* Image Styling */
+img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+
+
+
+

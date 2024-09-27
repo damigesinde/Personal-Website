@@ -1,0 +1,11 @@
+.about-intro p2{
+    text-align: left;
+    padding-right: 6000000px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;  /* Aligns content to the left */
+    width: 50%;                   /* Takes up half the screen width */
+    margin: 0 auto;               /* Centers the container itself */
+  }

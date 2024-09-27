@@ -1,0 +1,55 @@
+/* Header Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: #333; /* Dark background for header */
+    color: #fff; /* White text color */
+    padding: 1rem 0; /* Padding around header content */
+    text-align: center; /* Center-align header text */
+}
+
+header h1 {
+    margin-bottom: 0.5rem; /* Space below the heading */
+}
+
+nav ul {
+    list-style: none; /* Remove default list styling */
+}
+
+nav ul li {
+    display: inline; /* Display list items in a row */
+    margin: 0 1rem; /* Space between list items */
+}
+
+nav a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.portrait-text h2 {
+    size: 500px;
+}
+
+.portrait-image img {
+    height: 300px;
+    width: 300px;
+}
+
+body {
+    text-align: center;
+}
+
+/* Footer Styling */
+footer {
+    background: #333; /* Dark background for footer */
+    color: #fff; /* White text color */
+    text-align: center; /* Center-align text in footer */
+    padding: 1rem 0; /* Padding around footer content */
+}

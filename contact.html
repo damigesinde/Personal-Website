@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <!-- Link to an external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contact-title"> 
+        <h2>Contact</h2>
+    </div>
+    
+    <div class="contact-box">
+        <form action="https://api.web3forms.com/submit" method="POST"class="contact-left">
+            <input type="hidden" name="access_key" value="0c89ab17-e296-4508-a1b0-6af3caee4419">
+            <input type="text" name="name" placeholder="name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="email" class="contact-inputs" required>
+            <input type="number" name="number" placeholder="number" class="contact-inputs" required>
+            <textarea name="message" placeholder="message" class="contact-inputs" rows="4" cols="50" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div> 
+
+    <footer>
+        <p>&copy; 2024 k1ttyk1tty. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+
+
+</body>
+</html>
